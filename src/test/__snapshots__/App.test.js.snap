@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <form>
+    <input
+      data-testid="input"
+      type="text"
+      value=""
+    />
+    <button
+      data-testid="addTodo"
+      disabled=""
+      type="submit"
+    >
+      Add Todo
+    </button>
+  </form>
+  <div>
+    <div>
+      TodoList
+    </div>
+  </div>
+</DocumentFragment>
+`;

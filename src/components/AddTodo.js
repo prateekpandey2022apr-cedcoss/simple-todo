@@ -67,7 +67,7 @@ const AddTodo = (_props) => {
         data-testid="input"
       />
       <button type="submit" disabled={input === ""} data-testid="addTodo">
-        Add Todo @@
+        Add Todo
       </button>
     </form>
   );

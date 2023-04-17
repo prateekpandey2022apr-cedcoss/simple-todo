@@ -66,9 +66,11 @@ const AddTodo = (_props) => {
         }}
         data-testid="input"
       />
-      <button type="submit" disabled={input === ""} 
-      data-testid="addTodo"
-      data-cy="addTodo"
+      <button
+        type="submit"
+        disabled={input === ""}
+        data-testid="addTodo"
+        data-cy="addTodo"
       >
         Add Todo
       </button>

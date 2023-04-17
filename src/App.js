@@ -13,6 +13,7 @@ function App() {
     <>
       <AddTodo todos={todos} setTodos={setTodos} />
       <TodoList todos={todos} />
+        <p>New Feature</p>
     </>
   );
 }

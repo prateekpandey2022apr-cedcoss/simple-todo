@@ -72,7 +72,7 @@ const AddTodo = (_props) => {
         data-testid="addTodo"
         data-cy="addTodo"
       >
-        Add Todo [update]
+        Add Todo [update@]
       </button>
     </form>
   );

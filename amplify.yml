@@ -13,8 +13,8 @@ frontend:
         - touch ~/.ssh/config
 
         - 'echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-        - git clone git@github.com:prateekpandey2022apr-cedcoss/cypress-test.git
-        - cd cypress-test
+        - git clone git@github.com:prateekpandey2022apr-cedcoss/cypress.git
+        - cd cypress
         - pwd
     build:
       commands:

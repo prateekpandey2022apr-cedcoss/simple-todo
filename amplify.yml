@@ -28,6 +28,7 @@ frontend:
         - git clone git@github.com:cedcommerce/react-maven-test.git
         - cd react-maven-test
         - git checkout develop
+        - pwd
         # - cd e2e-tests
     build:
       commands:
@@ -41,7 +42,7 @@ frontend:
       - node_modules/**/*
 test:
   artifacts:
-    baseDirectory: cypress
+    baseDirectory: e2e-tests
     configFilePath: "**/mochawesome.json"
     files:
       - "**/*.png"

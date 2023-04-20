@@ -4,6 +4,7 @@ frontend:
     preBuild:
       commands:
         - npm install
+
         - echo "add deploy key"
         - eval "$(ssh-agent -s)"
         - ssh-add <(echo "$DEPLOY_KEY" | base64 -d)
@@ -13,8 +14,7 @@ frontend:
         - touch ~/.ssh/config
 
         - 'echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-        - git clone git@github.com:prateekpandey2022apr-cedcoss/cypress.git
-        - cd cypress
+        - git clone git@github.com:cedcommerce/react-maven-test.git
         - pwd
     build:
       commands:

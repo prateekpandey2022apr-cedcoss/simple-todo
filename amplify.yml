@@ -57,6 +57,7 @@ test:
         - "npm start & npx wait-on http://127.0.0.1:3000"
     test:
       commands:
+        - pwd
         - cd react-maven-test/e2e-tests
         - mvn clean test
         # - 'npx cypress run --reporter mochawesome --reporter-options "reportDir=cypress/report/mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'

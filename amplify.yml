@@ -20,6 +20,9 @@ frontend:
         - tar -xvf apache-maven-3.6.3-bin.tar.gz
         - mv apache-maven-3.6.3 /opt/
         - PATH="/opt/jdk-13.0.1/bin:/opt/apache-maven-3.6.3/bin:$PATH"
+        - echo $PATH
+        - export PATH
+        - echo $PATH
         - npm ci
         - curl https://intoli.com/install-google-chrome.sh | bash
         - which google-chrome

@@ -13,7 +13,7 @@ frontend:
         - mkdir ~/.ssh
         - touch ~/.ssh/config
         - PATH="/home/cloudshell-user/opt/jdk-13.0.1/bin:/home/cloudshell-user/opt/apache-maven-3.6.3/bin:$PATH"
-        - export PATH
+
         - echo $PATH
         - npm ci
         - curl https://intoli.com/install-google-chrome.sh | bash
@@ -54,7 +54,6 @@ test:
       commands:
         - pwd
         - PATH="/home/cloudshell-user/opt/jdk-13.0.1/bin:/home/cloudshell-user/opt/apache-maven-3.6.3/bin:$PATH"
-        - export PATH
         - echo $PATH
         - echo $PATH
         # - cd react-maven-test/e2e-tests

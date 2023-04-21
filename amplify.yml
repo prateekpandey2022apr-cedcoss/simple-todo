@@ -57,7 +57,7 @@ test:
         - export PATH
         - echo $PATH
         - echo $PATH
-        - cd react-maven-test/e2e-tests
+        # - cd react-maven-test/e2e-tests
         - mvn clean test
         # - 'npx cypress run --reporter mochawesome --reporter-options "reportDir=cypress/report/mochawesome-report,overwrite=false,html=false,json=true,timestamp=mmddyyyy_HHMMss"'
     # postTest:
